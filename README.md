@@ -4,7 +4,7 @@
 
 ### The sample of reviews used for model building consisted of 50,000 one star rated reviews and 50,000 five star rated reviews in order to clearly understand whether a review was positive or negative. For understanding of sentiment, an one star review will be interpreted as negative and a five star review as positive.
 
-### The best model was able to correctly classify reviews in the validation set with 97% accuracy. Therefore, it is possible to use the model in other contexts to evaluate the sentiment of a text review. However, given the bias of the reviews fed to the model (only one and five star reviews) the model would be most appropriate in determining what percentage of text reviews were glaringly positive of the total as unit testing displayed a negative bias towards an average review. 
+### The best model was able to correctly classify reviews in the validation set with 97% accuracy. Therefore, it is possible to use the model in other contexts to evaluate the sentiment of a text review. However, given the bias of the reviews fed to the model (only one and five star reviews) the model would be most appropriate in determining what percentage of text reviews were glaringly positive as a percentage of the total as unit testing displayed a negative bias towards an average review. 
 
 #### Data Source: https://www.yelp.com/dataset
 
